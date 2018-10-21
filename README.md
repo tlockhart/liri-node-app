@@ -20,11 +20,7 @@ Liri.js is the main entry point for the app.  In order to run the app, you will 
 4. Request a spotify id from [Spotify](https://developer.spotify.com/my-applications/#!/)
 5. In the liri-node-app directory, create a file named .env and add your spotify-id and spotify-secret to the file, once you have them:
     * SPOTIFY_ID=your-spotify-id<br/>
-<<<<<<< HEAD
-    * SPOTIFY_SECRET=your-spotify-secret<br/>
-=======
-    * SPOTIFY_SECRET=your-spotify-secret<br/>  
->>>>>>> 78e3bab98e93b08118f9d0c73dad87f934192b4e
+    * SPOTIFY_SECRET=your-spotify-secret<br/>   
 # Execute Program
 1. Open bash, and execute the following commands in the liri-node-app directory:
     1. node liri.js spotify-this-song [Your Song Name] [Enter]
