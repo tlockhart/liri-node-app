@@ -19,10 +19,10 @@ var fs = require("fs");
 
 var action = process.argv[2];
 //Slice the array at the third element and join everything with a space
-var name = process.argv.slice(3).join(' ');
+var name = process.argv.slice(3).join(' ').replace(/'/g,'');
 
-//console.log("Action =" + action);
-//console.log("Name =" + name);
+/*console.log("Action =" + action);
+console.log("Name =" + name);*/
 
 var spotifyCmd = "spotify-this-song";
 var bandsInTownCmd = "concert-this";
@@ -186,12 +186,12 @@ function getRatingsObject (data, mySource) {
         //console.log(data);
 
         //Get data in an array
-        var dataArr = data.split(" ");
+        var dataArr = data.split(",");
 
         //Store data from array:
         var action = dataArr[0];
         //Slice elements at the second array and join the remainder with spaces
-        var name = dataArr.slice(1).join(' ');
+        var name = dataArr.slice(1).join(' ').replace(/"/g,'');
 
         /*console.log("Action= "+action);
         console.log("Name = "+name);*/
