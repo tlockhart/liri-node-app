@@ -26,7 +26,7 @@ Liri.js is the main entry point for the app.  In order to run the app, you will 
     1. node liri.js spotify-this-song 'Your Song Name' [Enter]
     2. node liri.js concert-this Your Artist Name [Enter]
     3. node liri.js movie-this 'Your Movie Name' [Enter]
-2. The do-what-it-says command reads from the random.txt file.  The random.txt file is in the liri-node-app directory.  It should contain two search parameters from the three options previously listed [ex. spotify-this-song I Want It That Way].  To execute the query, open bash, and type the command in the liri-node-app directory:
+2. The do-what-it-says command reads from the random.txt file.  The random.txt file is in the liri-node-app directory.  It should contain two search parameters from the three options previously listed, in the following format [ex. spotify-this-song,"I Want It That Way"].  To execute the query, open bash, and type the command in the liri-node-app directory:
     1. node liri.js do-what-it-says [Enter]
 # Use
 This repo is available for public non-commercial use only.
